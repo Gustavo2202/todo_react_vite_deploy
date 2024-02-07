@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #176B87;
+    padding: 30px;
+    color: #fff;
+}
+.app{
+    max-width: 600px;
+    margin: 0 auto 300px;
+    background-color: #86B6F6;
+    padding: 20px 30px;
+    border-radius: 10px 100px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    margin: 10px 0;
+}
+input{
+    box-sizing: border-box;
+}
+
+button{
+    margin-right: 10px;
+    background-color:#333974;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .5s;
+}
+button:hover{
+    opacity: 1;
+}
+.todo-list{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #555;
+
+}
+.todo{
+    background-color: #B4D4FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.73);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.completar{
+    background-color: #65B741;
+}
+.apagar{
+    background-color: #FF6868;
+}
+
+.todo-form{
+    padding-bottom: 1.5rem;
+}
+input, select{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.filter, .search{
+    border-bottom: 2px solid #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.filter-options div{
+    flex: 1 1 0 ;
+}
+
